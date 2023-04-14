@@ -42,11 +42,6 @@ function buildSlackAttachments({ status, color, github }) {
           short: true,
         },
         referenceLink,
-        {
-          title: 'Event',
-          value: event,
-          short: true,
-        },
       ],
       footer_icon: 'https://github.githubassets.com/favicon.ico',
       footer: `<https://github.com/${owner}/${repo} | ${owner}/${repo}>`,
